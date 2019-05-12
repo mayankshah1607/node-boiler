@@ -1,0 +1,21 @@
+models:
+  - 'users'
+  - 'admins'
+  - 'players'
+
+controllers:
+  - 'authController'
+  - 'playerController'
+
+views:
+  - 'home'
+  - 'profile' 
+
+routes:
+  get:
+    - '/'
+    - 'route1'
+  post :
+    - '/login'
+    - 'generate'
+  
