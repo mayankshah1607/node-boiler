@@ -4,18 +4,24 @@ models:
   - 'players'
 
 controllers:
-  - 'authController'
-  - 'playerController'
+  authController:
+    - 'login'
+    - 'signUp'
+
+  playerController:
+    - 'shoot'
+    - 'post'
 
 views:
   - 'home'
   - 'profile' 
 
 routes:
-  get:
-    - '/'
-    - 'route1'
-  post :
-    - '/login'
-    - 'generate'
+  admin-routes:
+    post:
+      - '/delete'
+      - '/another-route'
+    get:
+      - '/get-here'
+      - 'lol'
   
