@@ -16,6 +16,10 @@
     "js-yaml": "^3.13.1",
     "mocha": "^6.1.4"
   },
+  "bin":{
+    "nodeboil": "./bin/nodeboil.js"
+  },
+  "preferGlobal": true,
   "devDependencies": {
     "fs-extra": "^8.0.0"
   }
