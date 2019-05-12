@@ -43,5 +43,18 @@ module.exports = {
             console.log("\x1b[32m", `Generated file ${item}.js`)
         })
         
+    },
+
+    makeRoutes: function(route_config){
+        const routeFiles = Object.keys(route_config);
+        routeFiles.map((item, index) => {
+            const content = contetMaker.routesContent(route_config[item]);
+            fs.writeFile(`./routes/${item}.js`, content, err => {
+                if (err){
+                    console.log("\x1b[31m",err);
+                }
+            })
+            console.log("\x1b[32m", `Generated file ${item}.js`)
+        })
     }
 }

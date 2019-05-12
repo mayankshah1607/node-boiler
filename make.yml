@@ -9,8 +9,8 @@ controllers:
     - 'signUp'
 
   playerController:
+    - 'pass'
     - 'shoot'
-    - 'post'
 
 views:
   - 'home'
@@ -23,5 +23,9 @@ routes:
       - '/another-route'
     get:
       - '/get-here'
-      - 'lol'
+      - '/lol'
+  player-routes:
+    get:
+      - '/shoot'
+      - '/kick'
   

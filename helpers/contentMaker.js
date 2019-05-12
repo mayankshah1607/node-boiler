@@ -40,5 +40,19 @@ module.exports = ${item};
         base_content = base_content + '}'
 
         return base_content;
+    },
+
+    routesContent : function(config){
+        var base_content = `const router = require('express').Router;\n\n`
+        const route_types = Object.keys(config);
+
+        route_types.map((type, index) => {
+            config[type].map((route, i) => {
+                base_content = base_content + 
+                `router.${type}('${route}', (req, res) => {}); // Add your route logic here\n`
+            })
+        })
+        base_content = base_content + `\nmodule.exports = router;`
+        return base_content;
     }
 }

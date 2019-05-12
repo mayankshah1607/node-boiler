@@ -58,6 +58,10 @@ module.exports = {
             else if (folder ==='controllers') {
                 fileGenerators.makeControllers(json_config.controllers);
             }
+
+            else if (folder ==='routes') {
+                fileGenerators.makeRoutes(json_config.routes);
+            }
         })
     }
 }
