@@ -4,13 +4,19 @@
   "description": "This npm package automatically creates directories Models,Views,Routes and Controllers and writes files into them according to your preference. This saves a lot of time by automatically generating boiler place code for you.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "start": "node index.js"
   },
   "author": "Mayank Shah",
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.5.4",
-    "js-yaml": "^3.13.1"
+    "chai": "^4.2.0",
+    "chai-fs": "^2.0.0",
+    "js-yaml": "^3.13.1",
+    "mocha": "^6.1.4"
+  },
+  "devDependencies": {
+    "fs-extra": "^8.0.0"
   }
 }

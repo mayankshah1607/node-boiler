@@ -33,7 +33,8 @@ module.exports = {
                     }
                     
                 } else {
-                    console.log("\x1b[31m",`NO SUPPORT FOR DIRECTORY ./${folder}`)
+                    console.log("\x1b[31m",`NO SUPPORT FOR DIRECTORY ./${folder}`);
+                    reject({success: false, message: "No support for entered directory!"})
                 }
             })
 
@@ -46,22 +47,25 @@ module.exports = {
     generateFiles: function(json_config){
         const folders = Object.keys(json_config);
 
-        folders.map((folder, index) => {
-            if (folder === 'models') {
-                fileGenerators.makeModels(json_config.models);
-            } 
-            
-            else if (folder === 'views') {
-                fileGenerators.makeViews(json_config.views);
-            }
-
-            else if (folder ==='controllers') {
-                fileGenerators.makeControllers(json_config.controllers);
-            }
-
-            else if (folder ==='routes') {
-                fileGenerators.makeRoutes(json_config.routes);
-            }
+        return new Promise((resolve, reject) => {
+            folders.map((folder, index) => {
+                if (folder === 'models') {
+                    fileGenerators.makeModels(json_config.models);
+                } 
+                
+                else if (folder === 'views') {
+                    fileGenerators.makeViews(json_config.views);
+                }
+    
+                else if (folder ==='controllers') {
+                    fileGenerators.makeControllers(json_config.controllers);
+                }
+    
+                else if (folder ==='routes') {
+                    fileGenerators.makeRoutes(json_config.routes);
+                }
+            })
+            resolve({success: true, message: "*******GENERATED ALL FILES*******"})
         })
     }
 }
