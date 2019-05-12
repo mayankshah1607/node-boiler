@@ -7,7 +7,12 @@ try {
     
     var folders = Object.keys(json_config);
     helpers.makeFolders(folders)
-    .then(res => console.log(res))
+    .then(res => {
+        if (res.success) {
+            helpers.generateFiles(json_config);
+        }
+    })
+    .catch(err => console.log(err));
     
   } catch (e) {
     console.log(e);

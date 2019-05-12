@@ -1,5 +1,6 @@
 const fs   = require('fs');
 var exec = require('child_process').exec;
+const fileGenerators = require('./fileGenerators');
 
 
 module.exports = {
@@ -16,12 +17,28 @@ module.exports = {
 
                     //*********Change permissions******/
                     if (process.platform === 'linux') {
-                        exec(`sudo chmod -R 777 ${folder}`)
+                        exec(`sudo chmod -R 777 ${folder}`, (err, stdout, stderr) => {
+                            if (err) {
+                                reject({success: false, message: err});
+                            } 
+
+                            if (stderr) {
+                                reject ({success: false, message: stderr});
+                            }
+                        })
                     }
                 }
-            })           
+            })
+
             //*****return promise */
-            resolve(1);
+            resolve({success: true, message: "Created folders successfully"});
         })
+    },
+
+    //************This helper function generates all the files */
+    generateFiles: function(json_config){
+        const models = json_config.models;
+        fileGenerators.makeModels(models);
+
     }
 }
