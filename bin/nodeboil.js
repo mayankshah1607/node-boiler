@@ -4,10 +4,10 @@ const yaml = require('js-yaml');
 const fs   = require('fs');
 const utils = require('../lib/helpers/utils');
 
-console.log(__dirname);
+console.log();
 
 try {
-    var json_config = yaml.safeLoad(fs.readFileSync('../../../make.yml', 'utf8'));
+    var json_config = yaml.safeLoad(fs.readFileSync(`${process.cwd()}/make.yml`, 'utf8'));
 
     var folders = Object.keys(json_config);
     utils.makeFolders(folders)
