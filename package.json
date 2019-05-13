@@ -3,6 +3,12 @@
   "version": "1.1.5",
   "description": "Node boiler is a library that automatically writes boiler plate code which otherwise does not come out of the box with node.js. This tool comes in handy while make REST APIs.",
   "main": "index.js",
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "code generation",
+    "boiler plate"
+  ],
   "scripts": {
     "test": "mocha",
     "start": "node index.js"
