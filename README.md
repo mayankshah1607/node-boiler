@@ -4,6 +4,18 @@
 
 :computer: Generate all your boiler plate code for writing REST APIs with just one command.
 
+## Installation
+
+This [Node.js](https://nodejs.org/en/) module is available through [npm registry](https://www.npmjs.com/package/node-boiler)
+
+Install the module globally by running the following command
+```
+$ npm i -g node-boiler
+```
+> Note: Not installing it gloabally may cause it to malfunction. We're working on the fix.
+
+## Usage
+
 1. Create a `boil.yml` file in your project directory specifying your configuration. Scroll below to see the semantic rules for writing `boil.yml` 
 > example `boil.yml`
 
@@ -113,16 +125,6 @@ views:
 ```
 Once done, execute the command ```nodeboil``` in the root of the project directory.
 > Note: Renaming the file to anything other than `boil.yml` will not work
-
-## Installation
-
-This [Node.js](https://nodejs.org/en/) module is available through [npm registry](https://www.npmjs.com/package/node-boiler)
-
-Install the module globally by running the following command
-```
-$ npm i -g node-boiler
-```
-> Note: Not installing it gloabally may cause it to malfunction. We're working on the fix.
 
 ## Features
 * Generates all your mongoose models
