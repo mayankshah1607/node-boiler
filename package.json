@@ -26,5 +26,12 @@
     "mocha": "^6.1.4",
     "chai": "^4.2.0",
     "chai-fs": "^2.0.0"
-  }
+  },
+  "files": [
+    "/lib",
+    "/bin",
+    "/package.json",
+    "README.md",
+    "LICENSE"
+  ]
 }
