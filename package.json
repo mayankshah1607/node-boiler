@@ -1,7 +1,7 @@
 {
   "name": "node-boiler",
   "version": "1.0.0",
-  "description": "This npm package automatically creates directories Models,Views,Routes and Controllers and writes files into them according to your preference. This saves a lot of time by automatically generating boiler plate code for you.",
+  "description": "Node boiler is a library that automatically writes boiler plate code which otherwise does not come out of the box with node.js. This tool comes in handy while make REST APIs.",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
@@ -11,16 +11,16 @@
   "license": "ISC",
   "dependencies": {
     "bluebird": "^3.5.4",
-    "chai": "^4.2.0",
-    "chai-fs": "^2.0.0",
-    "js-yaml": "^3.13.1",
-    "mocha": "^6.1.4"
+    "js-yaml": "^3.13.1"
   },
   "bin": {
     "nodeboil": "./bin/nodeboil.js"
   },
   "preferGlobal": true,
   "devDependencies": {
-    "fs-extra": "^8.0.0"
+    "fs-extra": "^8.0.0",
+    "mocha": "^6.1.4",
+    "chai": "^4.2.0",
+    "chai-fs": "^2.0.0"
   }
 }
