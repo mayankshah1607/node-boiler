@@ -71,6 +71,49 @@ $ nodeboil
 ```
 > Note: The generated files will come with all basic boiler plate code. Try it out!
 
+## Writing boil.yml file
+
+This file must be present in the root directory of your project. The syntax for writing `boil.yml` is as follows
+
+```
+models:
+  - '<Model Name 1>'
+  - '<Model Name 2>'
+  ...
+routes
+  - <name of route file 1>
+    - <route method>
+      - '<URL endpoint 1>'
+      - '<URL endpoint 2>'
+      ...
+     ...
+  - <name of route file 2>
+    - <route method>
+      - '<URL endpoint 1>'
+      - '<URL endpoint 2>'
+      ...
+     ...
+  ...
+  
+controllers:
+  - <Name of controller 1>
+    - '<Function name 1>'
+    - '<Function name 2>'
+    ...
+  - <Name of controller 2>
+    '<Function name 1>'
+    '<Function name 2>'
+    ...
+  ...
+
+views:
+  - '<Name of html file 1>'
+  - '<Name od html file 2>'
+  ...
+```
+Once done, execute the command ```nodeboil``` in the root of the project directory.
+> Note: Renaming the file to anything other than `boil.yml` will not work
+
 ## Installation
 
 This [Node.js](https://nodejs.org/en/) module is available through [npm registry](https://www.npmjs.com/package/node-boiler)
