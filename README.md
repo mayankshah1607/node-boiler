@@ -70,3 +70,13 @@ $ nodeboil
  -- <entry file>.js
 ```
 > Note: The generated files will come with all basic boiler plate code. Try it out!
+
+## Installation
+
+This [Node.js](https://nodejs.org/en/) module is available through [npm registry](https://www.npmjs.com/package/node-boiler)
+
+Install the module globally by runnin the following command
+```
+$ npm i -g node-boiler
+```
+> Note: Not installing it gloabally may cause it to malfunction. We're working on the fix.
