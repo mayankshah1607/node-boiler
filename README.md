@@ -124,3 +124,6 @@ To run the test suite, run the following command :
 $ npm install
 $ npm run test
 ```
+
+## License
+[MIT](https://github.com/mayankshah1607/node-boiler/blob/master/LICENSE)
