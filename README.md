@@ -2,4 +2,8 @@
 
 [![npm version](https://badge.fury.io/js/node-boiler.svg)](https://badge.fury.io/js/node-boiler)
 
-:computer: A simple library that automates writing boiler plate code while writing RESTful APIs in NodeJS
+:computer: Generate all your boiler plate code for writing REST APIs with just one command.
+```
+$ cd yourprojectdirectory
+$ nodeboil
+```
