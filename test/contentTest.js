@@ -1,4 +1,4 @@
-const contentMaker = require('../helpers/contentMaker');
+const contentMaker = require('../lib/helpers/contentMaker');
 const assert = require('chai').assert;
 
 describe('Testing functions in helpers/contentMaker', function(){
@@ -7,14 +7,14 @@ describe('Testing functions in helpers/contentMaker', function(){
     })
 
     it('Testing views content', function(){
-        assert(contentMaker.modelsContent('hello'))
+        assert.isString(contentMaker.modelsContent('hello'))
     })
 
     it('Testing controllers content', function(){
-        assert(contentMaker.modelsContent(['function1','function2']))
+        assert.isString(contentMaker.modelsContent(['function1','function2']))
     })
 
     it('Testing routes content', function(){
-        assert(contentMaker.modelsContent({post: ['/r1','/r2'], get: ['/r3','/r4']}))
+        assert.isString(contentMaker.modelsContent({post: ['/r1','/r2'], get: ['/r3','/r4']}))
     })
 })

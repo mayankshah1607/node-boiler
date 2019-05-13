@@ -1,7 +1,7 @@
 {
-  "name": "node-boil",
+  "name": "node-boiler",
   "version": "1.0.0",
-  "description": "This npm package automatically creates directories Models,Views,Routes and Controllers and writes files into them according to your preference. This saves a lot of time by automatically generating boiler place code for you.",
+  "description": "This npm package automatically creates directories Models,Views,Routes and Controllers and writes files into them according to your preference. This saves a lot of time by automatically generating boiler plate code for you.",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
@@ -16,7 +16,7 @@
     "js-yaml": "^3.13.1",
     "mocha": "^6.1.4"
   },
-  "bin":{
+  "bin": {
     "nodeboil": "./bin/nodeboil.js"
   },
   "preferGlobal": true,

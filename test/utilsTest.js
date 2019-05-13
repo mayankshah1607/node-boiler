@@ -1,10 +1,10 @@
-const utils = require('../helpers/utils');
+const utils = require('../lib/helpers/utils');
 const fs   = require('fs');
 const fsext = require('fs-extra')
 const yaml = require('js-yaml');
 
 describe('Testing functions in helpers/utils', function(){
-    var json_config = yaml.safeLoad(fs.readFileSync('./make.yml', 'utf8'));
+    var json_config = yaml.safeLoad(fs.readFileSync('./.test.yml', 'utf8'));
     var folders = Object.keys(json_config);
 
 
