@@ -12,7 +12,7 @@
     "npm": ">=6.0.0 <7.0.0 "
   },
   "author": "Mayank Shah",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "bluebird": "^3.5.4",
     "js-yaml": "^3.13.1"
