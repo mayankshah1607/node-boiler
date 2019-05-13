@@ -1,0 +1,8 @@
+sudo: required
+services:
+  - docker
+  
+script:
+  - docker login -u="$DOCKER_UNAME" -p="$DOCKER_PASS"
+  - docker build -t mayankshah1607/reacttest -f Dockerfile.dev .
+  - docker run mayankshah1607/reacttest npm run test
