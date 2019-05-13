@@ -46,3 +46,27 @@ routes:
 $ cd yourprojectdirectory
 $ nodeboil
 ```
+
+3. Your root project directory will then look like
+
+```
+ --node_modules
+   |--your modules
+ --models
+   |--users.js
+   |--admins.js
+   |--players.js
+ --views
+   |--home.html
+   |--profile.html
+ --controllers
+   |--authController.js
+   |--playerController.js
+ --routes
+   |--admin-routes.js
+   |--player-routes.js
+ --boil.yml
+ --package.json
+ -- <entry file>.js
+```
+> Note: The generated files will come with all basic boiler plate code. Try it out!
