@@ -4,6 +4,10 @@
 
 :computer: Generate all your boiler plate code for writing REST APIs with just one command.
 
+## Demo
+
+[demo]('./assets/demo.gif)
+
 ## Installation
 
 This [Node.js](https://nodejs.org/en/) module is available through [npm registry](https://www.npmjs.com/package/node-boiler)
