@@ -6,7 +6,7 @@
 
 ## Demo
 
-[demo]('./assets/demo.gif)
+<img src="./assets/demo.gif" width="500" title="demo">
 
 ## Installation
 
