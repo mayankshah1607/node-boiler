@@ -117,3 +117,10 @@ login: function(){},// Add function logic here
 signUp: function(){},// Add function logic here
 }
 ```
+
+## Tests
+To run the test suite, run the following command :
+```
+$ npm install
+$ npm run test
+```
