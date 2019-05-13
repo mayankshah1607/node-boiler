@@ -83,7 +83,7 @@ $ npm i -g node-boiler
 
 ### Features
 * Generates all your mongoose models
-> Example of a Generated model file (admin.js) under the generated directory /models
+> Example of a generated model file (admin.js) under the generated directory /models
 ```
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
@@ -94,3 +94,24 @@ const admins = mongoose.model('admins', adminsSchema);
      
 module.exports = admins;
 ```
+
+* Generates routes as per your configuration
+> Example of a generates routes file (admin-routes.js) under the generated directory /routes
+```
+const router = require('express').Router;
+
+router.post('/delete', (req, res) => {}); // Add your route logic here
+router.post('/another-route', (req, res) => {}); // Add your route logic here
+router.get('/get-here', (req, res) => {}); // Add your route logic here
+router.get('/lol', (req, res) => {}); // Add your route logic here
+
+module.exports = router;
+```
+
+* Generates basic html templates under the generated directory /views
+* Generates controllers for your REST APIs as per your configuration
+> Example of a generated controller file (authController.js) under the generated directory /controllers
+```module.exports = {
+ login: function(){},// Add function logic here
+ signUp: function(){},// Add function logic here
+}```
