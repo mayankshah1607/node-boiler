@@ -75,7 +75,7 @@ $ nodeboil
 
 This [Node.js](https://nodejs.org/en/) module is available through [npm registry](https://www.npmjs.com/package/node-boiler)
 
-Install the module globally by runnin the following command
+Install the module globally by running the following command
 ```
 $ npm i -g node-boiler
 ```
@@ -111,7 +111,8 @@ module.exports = router;
 * Generates basic html templates under the generated directory /views
 * Generates controllers for your REST APIs as per your configuration
 > Example of a generated controller file (authController.js) under the generated directory /controllers
-```module.exports = {
- login: function(){},// Add function logic here
- signUp: function(){},// Add function logic here
+```
+module.exports = {
+login: function(){},// Add function logic here
+signUp: function(){},// Add function logic here
 }```
