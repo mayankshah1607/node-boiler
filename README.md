@@ -81,7 +81,7 @@ $ npm i -g node-boiler
 ```
 > Note: Not installing it gloabally may cause it to malfunction. We're working on the fix.
 
-### Features
+## Features
 * Generates all your mongoose models
 > Example of a generated model file (admin.js) under the generated directory /models
 ```
