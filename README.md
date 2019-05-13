@@ -4,7 +4,7 @@
 
 :computer: Generate all your boiler plate code for writing REST APIs with just one command.
 
-Create a `boil.yml` file in your project directory
+1. Create a `boil.yml` file in your project directory
 > example `boil.yml`
 
 ```
@@ -40,7 +40,7 @@ routes:
       - '/kick'
 ```
 
-Generate directories and files as per your configuration
+2. Generate directories and files as per your configuration
 
 ```
 $ cd yourprojectdirectory
