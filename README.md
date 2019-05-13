@@ -115,4 +115,5 @@ module.exports = router;
 module.exports = {
 login: function(){},// Add function logic here
 signUp: function(){},// Add function logic here
-}```
+}
+```
