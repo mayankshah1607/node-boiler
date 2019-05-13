@@ -6,7 +6,7 @@
 
 ## Demo
 
-<img src="./assets/demo.gif" width="700" title="demo">
+<img src="./assets/demo.gif" width="750" title="demo">
 
 ## Installation
 
