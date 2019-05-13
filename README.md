@@ -1,4 +1,4 @@
-<img src="./assets/logo.png" width="350" title="hover text">
+<img src="./assets/logo.png" width="350" title="Node Boiler">
 
 [![npm version](https://badge.fury.io/js/node-boiler.svg)](https://badge.fury.io/js/node-boiler) [![Build Status](https://travis-ci.org/mayankshah1607/node-boiler.svg?branch=master)](https://travis-ci.org/mayankshah1607/node-boiler)
 
