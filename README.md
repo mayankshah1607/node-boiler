@@ -80,3 +80,17 @@ Install the module globally by runnin the following command
 $ npm i -g node-boiler
 ```
 > Note: Not installing it gloabally may cause it to malfunction. We're working on the fix.
+
+### Features
+..* Generates all your mongoose models
+> Example of a Generated model file (admin.js) under the generated directory /models
+```
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+        
+const adminsSchema = new Schema({}); //Write your schema here
+        
+const admins = mongoose.model('admins', adminsSchema); 
+     
+module.exports = admins;
+```
