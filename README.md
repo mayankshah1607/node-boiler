@@ -162,7 +162,7 @@ signUp: function(){},// Add function logic here
 ```
 
 ## Tests
-To run the test suite, run the following command :
+To run the test suite, execute the following command :
 ```
 $ npm install
 $ npm run test
