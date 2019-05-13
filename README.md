@@ -4,7 +4,7 @@
 
 :computer: Generate all your boiler plate code for writing REST APIs with just one command.
 
-1. Create a `boil.yml` file in your project directory
+1. Create a `boil.yml` file in your project directory specifying your configuration. Scroll below to see the semantic rules for writing `boil.yml` 
 > example `boil.yml`
 
 ```
