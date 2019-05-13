@@ -28,6 +28,7 @@
     "chai-fs": "^2.0.0"
   },
   "files": [
+    "/assets",
     "/lib",
     "/bin",
     "/package.json",
