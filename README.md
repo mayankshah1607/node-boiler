@@ -16,7 +16,7 @@ $ npm i -g node-boiler
 
 ## Usage
 
-1. Create a `boil.yml` file in your project directory specifying your configuration. Scroll below to see the semantic rules for writing `boil.yml` 
+1. Create a `boil.yml` file in your project directory specifying your configuration. Scroll below to see the semantic rules for writing your own `boil.yml` 
 > example `boil.yml`
 
 ```
