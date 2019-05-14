@@ -9,6 +9,10 @@
     "code generation",
     "boiler plate"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayankshah1607/node-boiler.git"
+  },
   "scripts": {
     "test": "mocha",
     "start": "node index.js"
