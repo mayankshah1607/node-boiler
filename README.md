@@ -177,7 +177,7 @@ $ npm run test
 ## Contributing
 When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
 
-We are always looking forward to new ideas and meaningful controbutions.
+We are always looking forward to new ideas and meaningful contributions.
 
 ## License
 [MIT](https://github.com/mayankshah1607/node-boiler/blob/master/LICENSE)
