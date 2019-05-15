@@ -60,7 +60,7 @@ routes:
 
 ```
 $ cd yourprojectdirectory
-$ nodeboil
+$ sudo nodeboil
 ```
 
 3. Your root project directory will then look like
@@ -127,7 +127,7 @@ views:
   - '<Name od html file 2>'
   ...
 ```
-Once done, execute the command ```nodeboil``` in the root of the project directory.
+Once done, execute the command ```sudo nodeboil``` in the root of the project directory.
 > Note: Renaming the file to anything other than `boil.yml` will not work
 
 ## Features
