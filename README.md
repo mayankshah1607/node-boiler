@@ -1,6 +1,6 @@
 <img src="./assets/logo.png" width="350" title="Node Boiler">
 
-[![npm version](https://badge.fury.io/js/node-boiler.svg)](https://www.npmjs.com/package/node-boiler) [![Build Status](https://travis-ci.org/mayankshah1607/node-boiler.svg?branch=master)](https://travis-ci.org/mayankshah1607/node-boiler) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/mayankshah1607/node-boiler/edit/master/LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![npm version](https://badge.fury.io/js/node-boiler.svg)](https://www.npmjs.com/package/node-boiler) [![Build Status](https://travis-ci.org/mayankshah1607/node-boiler.svg?branch=master)](https://travis-ci.org/mayankshah1607/node-boiler) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/mayankshah1607/node-boiler/edit/master/LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) ![npm](https://img.shields.io/npm/dw/node-boiler.svg)
 
 :computer: Generate all your boiler plate code for writing REST APIs with just one command.
 
