@@ -174,6 +174,9 @@ $ npm install
 $ npm run test
 ```
 
+## Related
+https://dev.to/mayankshah1607/generating-boiler-plate-code-for-nodejs-rest-apis-fpb
+
 ## Contributing
 When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
 
