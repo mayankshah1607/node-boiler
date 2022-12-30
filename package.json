@@ -33,7 +33,7 @@
   "preferGlobal": true,
   "devDependencies": {
     "fs-extra": "^8.0.0",
-    "mocha": "^6.1.4",
+    "mocha": "^10.2.0",
     "chai": "^4.2.0",
     "chai-fs": "^2.0.0"
   },
